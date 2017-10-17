@@ -1,0 +1,29 @@
+{
+  "name": "dakia",
+  "version": "1.0.0",
+  "description": "It's a messaging app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neelakansha85/dakia.git"
+  },
+  "keywords": [
+    "dakia",
+    "messenger",
+    "chat"
+  ],
+  "author": "Neel Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neelakansha85/dakia/issues"
+  },
+  "homepage": "https://github.com/neelakansha85/dakia#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.12.3",
+    "socket.io": "^2.0.3"
+  }
+}
