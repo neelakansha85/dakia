@@ -1,4 +1,4 @@
-var app=angular.module('myApp',[]);
+var app=angular.module('dakia',[]);
 app.controller('mainController',['$scope',function($scope){
  var socket = io.connect();
  $scope.send = function(){
