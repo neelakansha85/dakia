@@ -12,4 +12,7 @@ module.exports = function (app,io){
         res.sendFile(path.resolve(__dirname+"/../views/index.html"));
     });
 
+    app.get('/login',function(req,res){
+        res.sendFile(path.resolve(__dirname+"/../views/login.html"));
+    });
 }
